@@ -1,10 +1,13 @@
+body {
+    background-color: black;
+}
 h1 {
-    background-color: rgb(25, 7, 218);
+    background-color: rgb(109, 3, 170);
     font-style: italic;
     color:white ;
 }
 p1{
-    background-color: aqua;
+    background-color: rgb(248, 224, 10);
     color: rgb(12, 14, 14);
     font-style: oblique;
     font-size: 25px;
@@ -24,38 +27,71 @@ body{
 }
 h2{
     
-    lighting-color: aquamarine;
-}
-.skills{
-    margin-left: 70px;
-    margin-top: 100px;
-    font-weight: bold;
-   background-color: rgb(60, 121, 174);
+    lighting-color: rgb(241, 186, 4);
 }
 
 .pskills{
     display: flex;
     padding:30px;
-    
+}
+
+.skills{
+    margin-left: 275px;
+    margin-top: 50px;
+    font-weight: bold;
+   background-color: rgb(248, 223, 223);
+}
+
+.skills h2{
+    font-size-adjust: 6;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.skills p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 25px;
+    width: 200px;
+    height: 200px;
 }
 
 h1{
     display: inline-block;
+    background-color: #995db5;
+    display: flex;
 }
 
-img{
-    border-radius: 50%;
-}
 h2{
     background-color: rgb(4, 4, 237);
     font-style: italic;
     color: azure;
 display: inline-block;
+display: flex;
 } 
 h3{
-    background-color: rgb(4, 4, 237);
+    background-color: rgb(255, 0, 0);
     font-style: italic;
-    color: azure;
-display: inline-block;
-font-size: 30px;
+    color: rgb(4, 255, 109);
+    display: inline-block;
+    font-size: 30px;
+}
+
+th {
+    background-color: #212026;
+    color: white;
+}
+
+td {
+    background-color: #444346;
+    color: aliceblue;
+}
+
+table {
+    background-color: #444D5E;
 }
